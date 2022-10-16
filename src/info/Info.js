@@ -1,9 +1,12 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
+import mock1 from "../img/tfproject.png"
+import mock2 from "../img/trybetunes.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
+import {html, css, js, react, redux, docker, mysql,
+    nodejs, sequelize, JWT, heroku, typescript, jest, mocha, api} from '../img/icons/index'
+
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -110,39 +113,43 @@ export const info = {
             label: 'meditation',
             emoji: '🧘‍♂️'
         }
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
+
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [ 
         {
-            title: "Project FootballClub Front/Back",
-            live: "https://tfcfrontend.herokuapp.com/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://tfcfrontend.herokuapp.com/", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Trybe Football Club",
+            live: "https://tfcfrontend.herokuapp.com/",
+            source: "https://github.com/humbertodutra/projectTFC",
+            stack: [heroku, react, docker, typescript, sequelize, mysql],
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            title: "TrybeTunes",
+            live: "https://humbertodutra.github.io/trybe-tunes",
+            source: "https://github.com/humbertodutra/trybe-tunes",
+            image: mock2,
+            stack: [react, html, css],
         },
         {
             title: "Project 3",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock3
+            image: mock3,
+            stack: [heroku, react, docker, typescript, sequelize, mysql],
         },
         {
             title: "Project 4",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock4
+            image: mock4,
+            stack: [heroku, react, docker, typescript, sequelize, mysql],
         },
         {
             title: "Project 5",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock5
+            image: mock5,
+            stack: [heroku, react, docker, typescript, sequelize, mysql],
         }
     ],
 
