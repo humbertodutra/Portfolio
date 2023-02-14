@@ -4,8 +4,18 @@ import mock2 from "../img/trybetunes.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
+import planet from "../img/planets-project.png";
+import wallet from '../img/trybe-wallet-project.png';
+import triviaImg from '../img/trivia-game-2.png'
+import tryunfoImg from '../img/tryufo-project.png'
+import trybeTunes from '../img/trybe-tunes.png';
+import trybeOnlineStore from '../img/trybe-online-store.png';
+import recipeApp from '../img/recipeApp.png';
+import pixelArt from '../img/pixel-art-project.png';
+
 import {html, css, js, react, redux, docker, mysql,
-    nodejs, sequelize, JWT, heroku, typescript, jest, mocha, api} from '../img/icons/index'
+    nodejs, sequelize, JWT, heroku, typescript, jest, mocha, api, python, mongoDb} from '../img/icons/index'
+import { Api, Javascript } from "@mui/icons-material"
 
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -80,8 +90,8 @@ export const info = {
     bio: "Hello! I'm Humberto. I'm a full stack student at Trybe. I was a lawyer but my passion for technology brought me here, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
     skills:
         {
-            proficientWith: ['Git', 'Linux', 'React', 'Javascript', 'NodeJs', 'Docker', 'Sequelize', 'MySql', 'JWT', 'TypeScript', 'Html', 'Css'],
-            exposedTo: ['React-native', 'Python', 'Heroku', 'MongoDb']
+            proficientWith: ['Git', 'Linux', 'React', 'Javascript', 'NodeJs', 'Docker', 'Sequelize', 'MySql', 'JWT', 'TypeScript', 'Html', 'Css', 'Python', 'Heroku', 'MongoDb', ],
+            exposedTo: ['React-native', 'Aws']
         }
     ,
     hobbies: [
@@ -117,41 +127,175 @@ export const info = {
     ],
     portfolio: [ 
         {
-            title: "Trybe Football Club",
-            live: "https://tfcfrontend.herokuapp.com/",
-            source: "https://github.com/humbertodutra/projectTFC",
-            stack: [heroku, react, docker, typescript, sequelize, mysql],
-            image: mock1
+            title: "Planets Project",
+            live: "https://humbertodutra.github.io/planets-project/",
+            source: "https://github.com/humbertodutra/planets-project",
+            stack: [react, css, api],
+            image: planet
+        },
+        
+        {
+            title: "Trybe Wallet",
+            live: "https://humbertodutra.github.io/trybe-project-wallet/",
+            source: "https://github.com/humbertodutra/trybe-project-wallet",
+            image: wallet,
+            stack: [react, redux, css, api],
         },
         {
-            title: "TrybeTunes",
+            title: "Trivia Game",
+            live: "https://humbertodutra.github.io/trybe-project-trivia/#/",
+            source: "https://github.com/humbertodutra/trybe-project-trivia/",
+            image: triviaImg,
+            stack: [react, css, api, redux],
+        },
+        {
+            title: "Project Tryunfo",
+            live: "https://humbertodutra.github.io/trybe-project-tryunfo/",
+            source: "https://github.com/humbertodutra/trybe-project-tryunfo",
+            image: tryunfoImg,
+            stack: [react, css ],
+        },
+       
+        {
+            title: "Trybe Tunes",
             live: "https://humbertodutra.github.io/trybe-tunes",
             source: "https://github.com/humbertodutra/trybe-tunes",
-            image: mock2,
-            stack: [react, html, css],
+            image: trybeTunes,
+            stack: [react, css, api],
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3,
-            stack: [heroku, react, docker, typescript, sequelize, mysql],
+            title: "Trybe Online Store",
+            live: "https://humbertodutra.github.io/trybe-online-store-17/#/",
+            source: "https://github.com/humbertodutra/trybe-online-store-17/",
+            image: trybeOnlineStore,
+            stack: [react, css, api],
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4,
-            stack: [heroku, react, docker, typescript, sequelize, mysql],
+            title: "Food Station App",
+            live: "https://humbertodutra.github.io/trybe-project-recipes-app/#/",
+            source: "https://github.com/humbertodutra/trybe-project-recipes-app",
+            image:  recipeApp,
+            stack: [react, css, api],
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5,
-            stack: [heroku, react, docker, typescript, sequelize, mysql],
+            title: "Pixel Art",
+            live: "https://humbertodutra.github.io/trybe-pixel-art/",
+            source: "https://github.com/humbertodutra/trybe-pixel-art/",
+            image: pixelArt,
+            stack: [html, css, js],
         }
     ],
+    portfolioBackend: [
+        {
+            title: "Delivery App",
+            live: "",
+            source: "https://github.com/humbertodutra/project-delivery-app",
+            image:  '',
+            stack: [react, mongoDb, js, typescript, sequelize, nodejs, JWT, api],
+        }, 
+        {
+            title: "Store Manager",
+            live: "",
+            source: "https://github.com/humbertodutra/Trybe-project-storeManager",
+            stack: [docker, nodejs, mysql],
+            image: ""
+        },
+        
+        {
+            title: "Blogs Api",
+            live: "",
+            source: "https://github.com/humbertodutra/Trybe-project-blogsApi",
+            image: "",
+            stack: [docker, nodejs, mysql, sequelize, JWT],
+        },
+        {
+            title: "Stranger Things",
+            live: "",
+            source: "https://github.com/humbertodutra/Trybe-project-strangerThings-backend",
+            image: "",
+            stack: [heroku, docker, nodejs, mysql]
+        },
+        {
+            title: "Project TrybeSmith",
+            live: "",
+            source: "https://github.com/humbertodutra/Trybe-project-trybeSmith",
+            image: "",
+            stack: [docker, typescript, nodejs, mysql, JWT],
+        },
+       
+        {
+            title: "Trybe Football Club",
+            live: "",
+            source: "https://github.com/humbertodutra/Trybe-Project-Football-club",
+            image: "",
+            stack: [docker, typescript, nodejs, mysql, JWT, sequelize, jest, mocha],
+        },
+        {
+            title: "Commerce-MongoDb",
+            live: "",
+            source: "https://github.com/humbertodutra/project-alorithms",
+            image:  "",
+            stack: [mongoDb, js],
+        },
+        {
+            title: "Car-Shop",
+            live: "",
+            source: "https://github.com/humbertodutra/Project-carShop",
+            image:  '',
+            stack: [mongoDb, typescript, nodejs],
+        },
+     
+        {
+            title: "Trybers and Dragons",
+            live: "",
+            source: "https://github.com/humbertodutra/Trybe-project-trybersAndDragons",
+            image:  '',
+            stack: [nodejs, docker, typescript],
+        },
+        {
+            title: "Trybe Inventory Report",
+            live: "",
+            source: "https://github.com/humbertodutra/trybe-invetory-report",
+            image: '',
+            stack: [python],
+        },
+        {
+            title: "Project Algorithms",
+            live: "",
+            source: "https://github.com/humbertodutra/project-alorithms",
+            image:  '',
+            stack: [python],
+        },
+        {
+            title: "Project Jobs Insights",
+            live: "",
+            source: "https://github.com/humbertodutra/project-job-insights",
+            image:  '',
+            stack: [python],
+        },
+        {
+            title: "Project Ting",
+            live: "",
+            source: "https://github.com/humbertodutra/project-ting",
+            image:  '',
+            stack: [python],
+        },
+        {
+            title: "Project Restaurant Order",
+            live: "",
+            source: "https://github.com/humbertodutra/project-restaurant-order",
+            image:  '',
+            stack: [python],
+        },
+        {
+            title: "Project Tech News",
+            live: "",
+            source: "https://github.com/humbertodutra/project-tech-news",
+            image:  '',
+            stack: [python],
+        },
+    ],
+
 
     Languages: [
         {

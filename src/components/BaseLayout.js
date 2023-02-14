@@ -23,7 +23,7 @@ export default function BaseLayout() {
             </Grid>
             <Grid item flexGrow={1}>
                <Routes>
-                  <Route exact path={'/'} element={<Home/>}/>
+                  <Route path={'/'} element={<Home/>}/>
                   <Route exact path={'/about'} element={<About/>}/>
                   <Route exact path={'/portfolio'} element={<Portfolio/>}/>
                </Routes>
@@ -31,7 +31,7 @@ export default function BaseLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>made with &hearts;, and react by <a href={'https://humbertodutra.git.io'}>humberto</a></p>
+                  <p>made with &hearts;, and react by <a href={'https://humbertodutra.github.io'}>humberto</a></p>
                   <p>&copy; 2022</p>
                </Box>
             </Grid>
