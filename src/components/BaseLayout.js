@@ -22,7 +22,7 @@ export default function BaseLayout() {
                <Navbar darkMode={darkMode} handleClick={handleClick}/>
             </Grid>
             <Grid item flexGrow={1}>
-               <Routes>
+               <Routes >
                   <Route path={'/'} element={<Home/>}/>
                   <Route exact path={'/about'} element={<About/>}/>
                   <Route exact path={'/portfolio'} element={<Portfolio/>}/>

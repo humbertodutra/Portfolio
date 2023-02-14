@@ -39,7 +39,7 @@ export const info = {
     firstName: "Humberto",
     lastName: "Dutra",
     initials: "hd", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Junior Full Stack Developer",
+    position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -54,7 +54,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "Full Stack Developer Student at Trybe"
+            text: "Full Stack Developer"
         },
         {
             emoji: "📧",
@@ -87,7 +87,7 @@ export const info = {
 
     ],
   
-    bio: "Hello! I'm Humberto. I'm a full stack student at Trybe. I was a lawyer but my passion for technology brought me here, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Humberto. I'm a full stack developer. I was a lawyer but my passion for technology brought me here, and I believe artificial intelligence will inevitably rule us all one day.",
     skills:
         {
             proficientWith: ['Git', 'Linux', 'React', 'Javascript', 'NodeJs', 'Docker', 'Sequelize', 'MySql', 'JWT', 'TypeScript', 'Html', 'Css', 'Python', 'Heroku', 'MongoDb', ],
@@ -192,7 +192,14 @@ export const info = {
             source: "https://github.com/humbertodutra/project-delivery-app",
             image:  '',
             stack: [react, mongoDb, js, typescript, sequelize, nodejs, JWT, api],
-        }, 
+        },
+        {
+            title: "Trybe Football Club",
+            live: "",
+            source: "https://github.com/humbertodutra/Trybe-Project-Football-club",
+            image: "",
+            stack: [react, docker, typescript, nodejs, mysql, JWT, sequelize, jest, mocha],
+        },
         {
             title: "Store Manager",
             live: "",
@@ -221,21 +228,6 @@ export const info = {
             source: "https://github.com/humbertodutra/Trybe-project-trybeSmith",
             image: "",
             stack: [docker, typescript, nodejs, mysql, JWT],
-        },
-       
-        {
-            title: "Trybe Football Club",
-            live: "",
-            source: "https://github.com/humbertodutra/Trybe-Project-Football-club",
-            image: "",
-            stack: [docker, typescript, nodejs, mysql, JWT, sequelize, jest, mocha],
-        },
-        {
-            title: "Commerce-MongoDb",
-            live: "",
-            source: "https://github.com/humbertodutra/project-alorithms",
-            image:  "",
-            stack: [mongoDb, js],
         },
         {
             title: "Car-Shop",

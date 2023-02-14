@@ -1,9 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cf90d0d.css",
-    "main.js": "/static/js/main.71a46396.js",
+    "main.css": "/static/css/main.2e34429b.css",
+    "main.js": "/static/js/main.fa7530e3.js",
+    "static/media/planets-project.png": "/static/media/planets-project.6c40a65310ddcddaeb85.png",
+    "static/media/trybe-online-store.png": "/static/media/trybe-online-store.8f91e80a396bd5844cba.png",
+    "static/media/recipeApp.png": "/static/media/recipeApp.0a9a43ea31063c780a2b.png",
+    "static/media/trybe-tunes.png": "/static/media/trybe-tunes.48c6d60285261f70b296.png",
     "static/media/mock5.png": "/static/media/mock5.c9b5f54e8517e13fc897.png",
+    "static/media/tryufo-project.png": "/static/media/tryufo-project.72e32510b12ca89ec8e7.png",
+    "static/media/trybe-wallet-project.png": "/static/media/trybe-wallet-project.4ab929774d51580f85cf.png",
     "static/media/self.png": "/static/media/self.1d1d1d236a8935d570f4.png",
+    "static/media/pixel-art-project.png": "/static/media/pixel-art-project.5badfccfe6a6ca8ea29b.png",
+    "static/media/trivia-game-2.png": "/static/media/trivia-game-2.1402a12b59ee095a34aa.png",
     "static/media/tfproject.png": "/static/media/tfproject.912fb60019d631773558.png",
     "static/media/mock3.png": "/static/media/mock3.8624cffbb7ae4e742c4c.png",
     "static/media/trybetunes.png": "/static/media/trybetunes.8941ae7a84de885a80a2.png",
@@ -30,11 +38,11 @@
     "static/media/jsonwebtokens.svg": "/static/media/jsonwebtokens.d0f7d827eb17d262b24010b368f79110.svg",
     "static/media/js.svg": "/static/media/js.0dd1cf6c80bb500c655a617006c1148a.svg",
     "static/media/heroku.svg": "/static/media/heroku.a22f05f959c8736e5f4e20bcf32c3f27.svg",
-    "main.2cf90d0d.css.map": "/static/css/main.2cf90d0d.css.map",
-    "main.71a46396.js.map": "/static/js/main.71a46396.js.map"
+    "main.2e34429b.css.map": "/static/css/main.2e34429b.css.map",
+    "main.fa7530e3.js.map": "/static/js/main.fa7530e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cf90d0d.css",
-    "static/js/main.71a46396.js"
+    "static/css/main.2e34429b.css",
+    "static/js/main.fa7530e3.js"
   ]
 }
