@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2e34429b.css",
-    "main.js": "/static/js/main.7cb01b77.js",
+    "main.js": "/static/js/main.814fda7c.js",
     "static/media/planets-project.png": "/static/media/planets-project.6c40a65310ddcddaeb85.png",
     "static/media/trybe-online-store.png": "/static/media/trybe-online-store.8f91e80a396bd5844cba.png",
     "static/media/recipeApp.png": "/static/media/recipeApp.0a9a43ea31063c780a2b.png",
@@ -39,10 +39,10 @@
     "static/media/js.svg": "/static/media/js.0dd1cf6c80bb500c655a617006c1148a.svg",
     "static/media/heroku.svg": "/static/media/heroku.a22f05f959c8736e5f4e20bcf32c3f27.svg",
     "main.2e34429b.css.map": "/static/css/main.2e34429b.css.map",
-    "main.7cb01b77.js.map": "/static/js/main.7cb01b77.js.map"
+    "main.814fda7c.js.map": "/static/js/main.814fda7c.js.map"
   },
   "entrypoints": [
     "static/css/main.2e34429b.css",
-    "static/js/main.7cb01b77.js"
+    "static/js/main.814fda7c.js"
   ]
 }
